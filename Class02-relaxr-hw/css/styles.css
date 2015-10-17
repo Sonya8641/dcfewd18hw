@@ -16,7 +16,12 @@ Developer @GA in NYC
      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
      box-sizing: border-box; /* IE */
 }
-
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 /* Clear fix hack */
 .clearfix:after {
      content: ".";
@@ -78,7 +83,10 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
+.logo {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+}
 
 
 
