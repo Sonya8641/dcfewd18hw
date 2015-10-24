@@ -16,9 +16,26 @@ Developer @GA in NYC
      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
      box-sizing: border-box; /* IE */
 }
+header {
+	width:100%;
+	margin:0;
+	background: url(../images/header_bg.jpg) no-repeat top center #131e27;
+
+
+}
 body {
     font-family: 'Open Sans', sans-serif;
 
+}
+.container {
+
+	max-width: 600px;
+	margin: 1in auto;
+}
+.logo {
+		color: white;
+		font-size: 32px;
+		font-weight: 800;
 }
 .hero {
   background: url(../images/header_bg.jpg) no-repeat top center #131e27;
@@ -27,6 +44,6 @@ body {
   padding-top: 3px;
 }
 .btn {
-
+  
   
 }
