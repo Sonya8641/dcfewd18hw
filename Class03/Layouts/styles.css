@@ -7,23 +7,38 @@
 header,
 footer {
     clear: both;
-    float: left;
     width: 100%;
+    
 }
 
 .main {
     float: left;
     width: 30%;
-    margin-right: 45px;
+        margin-right: 45px;
 }
 
+.main .container {
+	min-height: 250px;
+}
+.sidebar1 .container {
+	min-height: 250px;
+
+}
+.sidebar2 .container {
+	min-height: 250px;
+}
 .sidebar1 {
     float: left;
     width: 30%;
+    min-height: 250px;
 }
 
 .sidebar2 {
 	float: right;
     width: 30%;
+   
+}
 
+footer {
+	margin-top: 10px;
 }
