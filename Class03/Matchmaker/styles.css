@@ -1,4 +1,4 @@
-styles.css
+
 
 
 
@@ -10,7 +10,20 @@ styles.css
 	margin-top: 0;
 	padding: 0;
 	width: 100%;
-	background-color: url(image parking.jpg) no-repeat top centet;
+	background-color: url(images/coworking.jpg) no-repeat top center;
+	background-size: cover;
+
+
+}
+
+.smt_homebanner_featuredbox{
+	position: relative;
+	display: block;
+	overflow: hidden;
+	width: 400px;
+	float: right;
+	background-size: rgba(255,255,255,0.6);
+
 }
 
 
