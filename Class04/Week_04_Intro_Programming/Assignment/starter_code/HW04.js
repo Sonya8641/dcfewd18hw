@@ -9,7 +9,13 @@ $(document) .ready(function() {
 
 });
 
+$(document).ready(function() {
+	$("#testbutton").click(function(){
+	$("div").css("background-color", "red");
 
+	)};
+
+}
 
 
 
@@ -26,3 +32,4 @@ $(document) .ready(function() {
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="hw04.js"></script>
