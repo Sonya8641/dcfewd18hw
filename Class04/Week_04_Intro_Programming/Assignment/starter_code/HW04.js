@@ -1,21 +1,22 @@
-$(document) .ready(function() {
+//$(document) .ready(function() {
 
-	$("p") .hide();
+//	$("p") .hide();
 
-	$("h1") .click(function() {
-		$(this).next().slideToggle(300);
+//	$("h1") .click(function() {
+//		$(this).next().slideToggle(300);
 
-	)};
+//	)};
 
-});
+//});
 
 $(document).ready(function() {
-	$("#testbutton").click(function(){
-	$("div").css("background-color", "red");
+	$("learnmore").click(function(){
+	$("p").html("background-color", "red");
+	$(this).next().slideToggle(300);
+	
+)};
 
-	)};
 
-}
 
 
 
