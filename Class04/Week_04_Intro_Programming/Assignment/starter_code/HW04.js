@@ -16,6 +16,14 @@ $(document).ready(function() {
 	
 )};
 
+	jQuery(document).ready(function(){
+
+// Prevent link from scrolling to the top of the page
+  jQuery(".toggle-story-1").click(function(event) {
+    event.preventDefault();
+  });
+});
+
 
 
 
