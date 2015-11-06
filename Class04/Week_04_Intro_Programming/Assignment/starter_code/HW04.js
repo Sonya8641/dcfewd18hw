@@ -22,6 +22,10 @@ $(document).ready(function() {
   jQuery(".toggle-story-1").click(function(event) {
     event.preventDefault();
   });
+
+  
+
+
 });
 
 
