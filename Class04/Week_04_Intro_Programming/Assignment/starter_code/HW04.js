@@ -1,32 +1,26 @@
-//$(document) .ready(function() {
-
-//	$("p") .hide();
-
-//	$("h1") .click(function() {
-//		$(this).next().slideToggle(300);
-
-//	)};
-
-//});
-
 $(document).ready(function() {
-	$("learnmore").click(function(){
-	$("p").html("background-color", "red");
-	$(this).next().slideToggle(300);
-	
-)};
 
-	jQuery(document).ready(function(){
+	$('.readmore').click(function() {
+		event.preventDefault();
+		$('#show-this-on-click').slideToggle();
+		$('.readmore').hide();
+		$('.readless').show();
+	});
 
-// Prevent link from scrolling to the top of the page
-  jQuery(".toggle-story-1").click(function(event) {
-    event.preventDefault();
-  });
+	$('.readless').click(function() {
+		$('#show-this-on-click').slideUp();
+		$('.readless').hide();
+		$('.readmore').show();
+		event.preventDefault();
+	});
 
-  
+	$('.learnmore').click(function() {
+		$('#learnmoretext').slideDown();
+		$('.learnmore').hide();
+		event.preventDefault();
+	});
 
-
-});
+ });
 
 
 
