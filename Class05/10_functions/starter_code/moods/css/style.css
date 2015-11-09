@@ -42,26 +42,27 @@ body {
 
 /* Center the container */
 .container {
-  width: 960px;
+  max-width: 960px;
   margin: auto;
   padding-top: 5em;
 }
 
 header {
-  background: rgba(0,0,0, .5);
+  background: url('../img/background.jpg');
   padding: 20px 0;
 }
 
 .title {
   text-align: center;
-  color: #fff;
-  font-size: 38px;
+  color: black;
+  font-size: 48px;
   font-weight: bold;
-  font-family: helvetica, arial, sans-serif;
+  font-family: 'Pacifico', helvetica, arial, sans-serif;
+  background-color: rgba(255,255,255,0.75);
 }
 
 .title p {
-  font-size: 22px;
+  font-size: 30px;
   font-weight: normal
 }
 
@@ -72,7 +73,7 @@ header {
   border: 1px solid #111;
   padding: 0px 30px;
   display: inline-block;
-  width: 680px;
+  width: 90%;
   margin-right: 24px;
   font-family: helvetica, arial, sans-serif;
   height: 72px;
@@ -89,7 +90,7 @@ header {
   border: 1px solid #111;
   text-align: center;
   display: inline-block;
-  width: 250px;
+  width: 90%;
   height: 72px;
   line-height: 74px;
   vertical-align: middle;
@@ -99,6 +100,27 @@ header {
 }
 #submit-btn:hover {
   background: #fff600;
+}
+
+.moodring {
+  float: left;
+  margin: 0 30px 30px 30px;
+}
+
+.moodring > div {
+  width: 300px;
+  height:300px;
+  border-radius: 150px;
+  overflow:hidden;
+  border:1px solid rgb(150,150,150);
+}
+
+.moodform {
+  width: 400px;
+  margin:0;
+  padding:0;
+  display:inline-block;
+  float:right;
 }
 
 /******************************************
