@@ -9,8 +9,7 @@ $(document).ready(function() {
         //get the value of the #mood input and correct for capitalization
         var moodvalue = jQuery('#mood').val();
 
-        
-        moodvalue = moodvalue.toLowerCase().trim();
+        	   moodvalue = moodvalue.toLowerCase().trim();
 
         // if the user inputs excited / ecstatic / fantastic change the CSS class to 'excited'
         if(moodvalue == "ecstatic" || moodvalue == "excited" || moodvalue == "fantastic"){
@@ -26,8 +25,6 @@ $(document).ready(function() {
         if(moodvalue == "bad" || moodvalue == "angry"){
             $('.moodring div').addClass('bad');}
     }
-
-
 
     jQuery('#submit-btn').click(iHaveBeenClicked);
 
