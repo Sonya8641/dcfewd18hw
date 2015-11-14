@@ -15,17 +15,18 @@ $(document).ready(function() {
 //go to previous image
 
 function previousImage() {
-	//if the index is greater than 0 we want to change the image and stop at 0
+	//if the index is greater than 0 we want to increment the image and stop at 0
 	if (i>0) {
 		i = i-1;
 	}
-}
-function changeImage (){
+
 	$("#image-to-vote-on").attr("src", images[i]);
 	}
-function nextImage() {
-		if (i>images[images.length-1]) {
-		i = i-1;
-	}
 
+//go to next image
+function nextImage() {
+		if (i<images.length-1) {
+		i = i+1;
+	}
+	$("#image-to-vote-on").attr("src", images[i]);
 }
