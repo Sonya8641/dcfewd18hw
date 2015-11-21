@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    background-color: grey;
+    height: 150px;
+    padding: 20px;
+    text-align: center;
+}
+
+.container_12,
+.row {
+    margin-bottom: 20px;
+}
+
+.row {
+    float: left;
+}
