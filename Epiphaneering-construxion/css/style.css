@@ -1,0 +1,126 @@
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both; 
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+.top {
+	background: #003049;
+     padding: 20px;
+     width: 960px;
+     margin: 0 auto;
+	
+}
+
+.clear {
+     clear: both;
+}
+
+.alignright {
+     float: right;
+     padding-top: 0 0 10px 10px
+}
+
+.alignleft  {
+     float: left;
+     padding-top: 0 0 10px 10px
+}
+.relaxr_nav_logo {
+     color: white;
+     font-weight: bold;
+     float: left;
+     width: 320px;
+     font-size: 28px;
+     margin-top: 10px;
+     margin-left: 10px;
+     font-family: 'Open Sans', sans-serif, Helvetica;
+
+}
+
+.relaxr_nav_menu {
+     float: right;
+     margin: 20px 30px 10px 0;
+}
+
+.relaxr_nav_menu> li {
+     display: inline-block;
+     font-family: 'Open Sans'arial, sans-serif;
+     font-size: 20px;
+}
+
+.wrapper {
+     background-color: #f0efef;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     margin: auto;
+}
+
+.mainart {
+     max-width: 53%;
+     margin-left: 40px;
+}
+
+.article2 {
+     max-width: 53%;
+     margin-left: 40px;
+}
+h2 {
+     font-family: sans-serif, arial, Helvetica;
+     font-size: 28px;
+     font-weight: 400px;
+     color: #033048
+}
+
+p {
+     font-family: sans-serif, arial, Helvetica;
+     font-size: 28px;
+}
+.side {
+     max-width: 40%;
+     float:right;
+
+}
+
+.signup {
+     background: black;
+     color: white;
+     padding: 2% 3%;
+}
+
+.wrapper2 {
+     background-color: #f0efef;
+     padding-top: 20px;
+     padding-bottom: 20px
+}
+footer {
+  clear: both;
+  margin-bottom: 0;
+}
+
+.bottom {
+     background: #003049;
+     padding: 20px;
+     width: 960px;
+     margin: 0 auto;
+     
+}
+.relaxr_nav_logo2 {
+     color: white;
+     font-weight: bold;
+     float: left;
+     width: 320px;
+     font-size: 28px;
+     margin-top: 10px;
+     margin-left: 10px;
+     font-family: 'Open Sans', sans-serif, Helvetica;
+}
